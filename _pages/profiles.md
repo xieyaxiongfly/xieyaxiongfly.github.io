@@ -34,7 +34,7 @@ phd:
       <p>Started from Fall 2023</p>
       <p>Visiting Student 2022 - 2023</p>
   - align: left
-    image: yuhao.jpg
+    image: yuhaowang.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
