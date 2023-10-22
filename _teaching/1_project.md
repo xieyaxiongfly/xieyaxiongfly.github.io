@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Fall 2023 
+description: 
+img: assets/img/CSE610.jpeg
 importance: 1
-category: work
+redirect: https://xieyaxiongfly.github.io/CSE610_Fall_2023/  
+category: CSE610 Special Topics on Mobile Sensing & Mobile Networks 
+university: University at Buffalo
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
@@ -18,7 +20,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/2.jpg
+    img: /assets/img/CSE610.jpeg
     ---
 
 <div class="row">

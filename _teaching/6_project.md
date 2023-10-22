@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+title: project 6
+description: a project with no image
+img:
+importance: 4
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
@@ -18,7 +17,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/2.jpg
+    img: /assets/img/12.jpg
     ---
 
 <div class="row">

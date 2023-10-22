@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Spring 2021 
+description: 
+img: assets/img/COS563.jpeg
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: COS563 Wireless Networks (@Princeton University)
+redirect: https://www.cs.princeton.edu/courses/archive/spring21/cos563/index.html 
+university: Princeton University
 ---
 
 Every project has a beautiful feature showcase page.
@@ -18,7 +19,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/2.jpg
+    img: /assets/img/12.jpg
     ---
 
 <div class="row">

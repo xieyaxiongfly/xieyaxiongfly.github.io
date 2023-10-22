@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - YaxiongXiePrinceton
+  - xieyaxiongfly 
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - YaxiongXiePrinceton/NG-Scope 
+  - YaxiongXiePrinceton/LTEScope_CSI 
+  - xieyaxiongfly/Atheros-CSI-Tool
+  - xieyaxiongfly/Atheros-CSI-Tool-UserSpace-APP
+  - xieyaxiongfly/Atheros_CSI_tool_OpenWRT_src
+  - xieyaxiongfly/Atheros_CSI_tool_OpenWRT_UserSpaceApp_src

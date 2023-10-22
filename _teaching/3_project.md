@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Fall 2022
+description: 
+img: assets/img/CSE710.jpeg
 importance: 1
-category: work
+redirect: https://cse.buffalo.edu/~yaxiongx/teaching/CSE710/2022fall/ 
+category: CSE710 Seminar on Wireless Networks 
+university: University at Buffalo
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
@@ -18,7 +20,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/2.jpg
+    img: /assets/img/1.jpg
     ---
 
 <div class="row">

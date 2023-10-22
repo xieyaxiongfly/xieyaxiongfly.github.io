@@ -37,13 +37,14 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <div class="clearfix", align="justify">
             {{ content }}
           </div>
-
+	
+		  <br> 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">Recent News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
@@ -55,9 +56,22 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Recent Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+			
+		  <!-- GitHub Repos -->
+          {% if page.git_repos -%}
+				{% if site.data.repositories.github_repos %}
+            	<h2>Selected Git Repositories</h2>
+				<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+				  {% for repo in site.data.repositories.github_repos %}
+					{% include repository/repo.html repository=repo %}
+				  {% endfor %}
+				</div>
+				{% endif %}
+          {%- endif %}
+
 
           <!-- Social -->
           {%- if page.social %}
