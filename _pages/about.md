@@ -24,6 +24,6 @@ working with Prof. Kyle Jamieson and Prof. Jennifer Rexford.
 I received my Ph.D. from Nanyang Technological University (NTU), 
 under supervision of Prof. Mo Li.
 
-I am the author of two open-source research tool: Atheros-CSI-Tool and NG-Scope.
+I am the author of two open-source research tool: [NG-Scope](https://github.com/YaxiongXiePrinceton/NG-Scope) and [Atheros-CSI-Tool](https://wands.sg/research/wifi/AtherosCSI/).
 
 
