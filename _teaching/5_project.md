@@ -2,7 +2,7 @@
 layout: page
 title: Spring 2024
 description: 
-img: assets/img/CSE589.jpeg
+img: assets/img/CSE589.jpg
 importance: 1
 redirect: https://xieyaxiongfly.github.io/CSE589_Spring_2024/  
 category: CSE489/589 Modern Networking Concepts
