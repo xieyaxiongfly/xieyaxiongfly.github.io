@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Spring 2024
+description: 
+img: assets/img/CSE589.jpeg
+importance: 1
+redirect: https://xieyaxiongfly.github.io/CSE589_Spring_2024/  
+category: CSE489/589 Modern Networking Concepts
+university: University at Buffalo
 ---
 
 Every project has a beautiful feature showcase page.
