@@ -31,7 +31,7 @@ phd:
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <h3>[Liyao Li](https://liyao-li.github.io/Liyao/)</h3>
+      <h3><a href="https://liyao-li.github.io/Liyao/">Liyao Li</a></h3>
       <p>Started from Fall 2023</p>
       <p>Visiting Student 2022 - 2023</p>
 
