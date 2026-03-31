@@ -4,7 +4,6 @@ title: Spring 2025
 description: 
 img: assets/img/CSE589.jpg
 importance: 1
-redirect: https://xieyaxiongfly.github.io/CSE_589_Spring_25/ 
 category: CSE589 Modern Networking Concepts
 university: University at Buffalo
 ---
