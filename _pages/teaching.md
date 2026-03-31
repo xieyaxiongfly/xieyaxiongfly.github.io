@@ -5,7 +5,7 @@ permalink: /teaching/
 description: 
 nav: true
 nav_order: 4
-display_categories: [CSE489/589 Modern Networking Concepts, 
+display_categories: [CSE589 Modern Networking Concepts, 
 CSE610 Special Topics on Mobile Sensing & Mobile Networks, 
 CSE710 Seminar on Wireless Networks, 
 COS563 Wireless Networks (@Princeton University)]
