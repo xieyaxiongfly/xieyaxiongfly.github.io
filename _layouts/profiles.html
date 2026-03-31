@@ -1,0 +1,124 @@
+---
+layout: page
+---
+
+<!-- about.html -->
+      <div class="post">
+	    <h2> Next-Generation Mobile Networks (NEMO) Group</h2>
+		<br>
+		<br>
+
+        <article>
+		  {% if page.faculty -%}
+		  <h3> Faculty Member </h3>
+          <hr>
+          {% for profile in page.faculty %}
+          <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if profile.image %}
+              {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
+
+              {% if profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=profile.image -%}
+            {% endif -%}
+            {%- if profile.more_info %}
+            <div class="more-info">
+              {{ profile.more_info }}
+            </div>
+            {%- endif %}
+          </div>
+
+          <div class="clearfix">
+            {% if profile.content -%}
+            {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+            {%- else -%}
+            {{ content }}
+            {%- endif %}
+          </div>
+		  <br> <br>
+          {% endfor %}
+          {%- endif %}
+
+          {% if page.phd -%}
+		  <h3> PHD Students </h3>
+          <hr>
+          {% for profile in page.phd %}
+          <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if profile.image %}
+              {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
+
+              {% if profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=profile.image -%}
+            {% endif -%}
+            {%- if profile.more_info %}
+            <div class="more-info">
+              {{ profile.more_info }}
+            </div>
+            {%- endif %}
+          </div>
+
+<!--
+          <div class="clearfix">
+            {% if profile.content -%}
+            {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+            {%- else -%}
+            {{ content }}
+            {%- endif %}
+          </div>
+            -->
+          {% endfor %}
+          <div class="clearfix"></div>
+          {%- endif %}
+
+
+          {% if page.alumni -%}
+		  <br> <br>
+		  <h3> Group Alumni </h3>
+          <hr>
+          {% for profile in page.alumni %}
+          <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if profile.image %}
+              {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
+
+              {% if profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=profile.image -%}
+            {% endif -%}
+            {%- if profile.more_info %}
+            <div class="more-info">
+              {{ profile.more_info }}
+            </div>
+            {%- endif %}
+          </div>
+          {% endfor %}
+          <div class="clearfix"></div>
+          {%- endif %}
+
+
+        </article>
+
+</div>
