@@ -703,7 +703,6 @@ If you are interested, please reach out!
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
-
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
