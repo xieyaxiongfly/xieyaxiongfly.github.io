@@ -2,8 +2,8 @@
 layout: page
 title: Spring 2026
 description: 
-img: assets/img/CSE589.jpg
-importance: 1
+img: assets/img/CSE589.png
+importance: 2
 redirect: https://xieyaxiongfly.github.io/CSE589_UB_SP26/
 category: CSE589 Modern Networking Concepts
 university: University at Buffalo

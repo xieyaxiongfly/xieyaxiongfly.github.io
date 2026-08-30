@@ -2,8 +2,8 @@
 layout: page
 title: Spring 2025
 description: 
-img: assets/img/CSE589.jpg
-importance: 1
+img: assets/img/CSE589.png
+importance: 3
 category: CSE589 Modern Networking Concepts
 university: University at Buffalo
 ---

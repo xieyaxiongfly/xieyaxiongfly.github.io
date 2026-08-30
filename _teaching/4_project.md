@@ -2,7 +2,7 @@
 layout: page
 title: Spring 2021 
 description: 
-img: assets/img/COS563.jpeg
+img: assets/img/COS563.png
 importance: 1
 category: COS563 Wireless Networks (@Princeton University)
 redirect: https://www.cs.princeton.edu/courses/archive/spring21/cos563/index.html 

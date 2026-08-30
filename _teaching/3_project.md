@@ -2,7 +2,7 @@
 layout: page
 title: Fall 2022
 description: 
-img: assets/img/CSE710.jpeg
+img: assets/img/CSE710.png
 importance: 1
 redirect: https://cse.buffalo.edu/~yaxiongx/teaching/CSE710/2022fall/ 
 category: CSE710 Seminar on Wireless Networks 

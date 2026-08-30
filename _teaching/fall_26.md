@@ -2,7 +2,7 @@
 layout: page
 title: Fall 2026
 description: 
-img: assets/img/CSE589.jpg
+img: assets/img/CSE589.png
 importance: 1
 redirect: https://xieyaxiongfly.github.io/CSE589_fall_2026/
 category: CSE589 Modern Networking Concepts
