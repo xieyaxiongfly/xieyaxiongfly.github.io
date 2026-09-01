@@ -2,7 +2,7 @@
 layout: page
 title: Fall 2023 
 description: 
-img: assets/img/CSE610.png
+img: assets/img/CSE610_sensing.png
 importance: 1
 redirect: https://xieyaxiongfly.github.io/CSE610_Fall_2023/  
 category: CSE610 Special Topics on Mobile Sensing & Mobile Networks 
